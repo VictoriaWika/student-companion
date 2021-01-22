@@ -1,23 +1,3 @@
-:root {
-  --color--orange1: #ff5a36;
-  --color--orange2: #ff9c86;
-  --color--orange3: #ffbdaf;
-  --color--orange4: #ffded7;
-  --color--blue1: #193251;
-  /* blue2 wird auch für dunkle border-color benutzt */
-  --color--blue2: #7589a2;
-  /* blue3 wird auch für helle border-color benutzt */
-  --color--blue3: #e0e4e8;
-  --color--blue4: #f8f8f8;
-  --shadow--grey: rgba(25, 50, 81, 0.2);
-  --shadow--orange: rgba(255, 90, 54, 0.4);
-  --font--color-dark: #193251;
-  --font--color-light: #7589a2;
-  --font-size--big: 16px;
-  --font-size--medium: 14px;
-  --font-size--small: 12px;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -30,10 +10,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   margin: 0 30px;
-}
-
-main {
-  overflow: scroll;
 }
 
 h1 {
