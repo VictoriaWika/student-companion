@@ -1,0 +1,22 @@
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2px;
+  font-size: 0.8rem;
+  background: var(--c-light);
+}
+
+.navigation__link {
+  display: grid;
+  align-content: center;
+  text-decoration: none;
+  color: var(--c-black);
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.navigation__link i {
+  display: block;
+  font-size: 1.2rem;
+}
