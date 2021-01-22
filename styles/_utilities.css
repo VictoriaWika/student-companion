@@ -1,0 +1,12 @@
+.buddies {
+  font-weight: 600;
+  font-color: var(--color--blue2);
+}
+
+.journal-heading {
+  line-height: 1.333;
+}
+
+.comprehension {
+  letter-spacing: -0.26px;
+}

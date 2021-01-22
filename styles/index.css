@@ -1,0 +1,9 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css';
+@import '_base.css';
+@import 'components/_app-grid.css';
+@import 'components/_header.css';
+@import 'components/_footer.css';
+@import 'components/_nav.css';
+@import '_variables.css';
+@import '_utilities.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
