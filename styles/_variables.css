@@ -4,9 +4,13 @@
   --color--orange3: #ffbdaf;
   --color--orange4: #ffded7;
   --color--blue1: #193251;
+
   /* blue2 wird auch für dunkle border-color benutzt */
+
   --color--blue2: #7589a2;
+
   /* blue3 wird auch für helle border-color benutzt */
+
   --color--blue3: #e0e4e8;
   --color--blue4: #f8f8f8;
   --shadow--grey: rgba(25, 50, 81, 0.2);

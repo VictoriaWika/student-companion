@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #fff;
+  padding: 12px 29px;
+  border-radius: 10px;
+  box-shadow: 0 2px 11px rgba(25, 50, 81, 0.2);
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  line-height: 0;
+}
+
+.navigation__icon-inactive {
+  filter: invert(57%) sepia(9%) saturate(959%) hue-rotate(173deg)
+    brightness(91%) contrast(89%);
+}
