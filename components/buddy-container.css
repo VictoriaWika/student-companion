@@ -1,0 +1,30 @@
+.buddy-container {
+  margin: 30px 0;
+}
+
+.buddy-container:first-child {
+  margin-top: 81px;
+}
+
+.buddy-container:last-child {
+  margin-bottom: 87px;
+}
+
+.buddy-container__list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 auto;
+  border: 1px solid var(--color--blue3);
+  border-radius: 6px;
+}
+
+.buddy-container__items {
+  text-align: center;
+  border-bottom: 1px solid var(--color--blue3);
+  padding: 18px 0;
+  color: var(--color--blue2);
+}
+
+.buddy-container__items:last-child {
+  border-bottom: 0;
+}
