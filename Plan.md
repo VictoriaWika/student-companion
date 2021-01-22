@@ -10,7 +10,7 @@
    - mit plus
    - ohne plus für Teams
 4. Navigation
-5. **Energy Level Grafik**
+5. Energy Level Grafik
    - Energy Level Tags
    - Energy Level Buttons
 6. Buttons
