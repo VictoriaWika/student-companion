@@ -1,0 +1,41 @@
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons__100,
+.buttons__75,
+.buttons__50,
+.buttons__25 {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.buttons__darkorange {
+  background: var(--color--orange1);
+  color: #fff;
+}
+
+.buttons__75 {
+  background: var(--color--orange2);
+  color: #fff;
+}
+
+.buttons__50 {
+  background: var(--color--orange3);
+  color: var(--color--orange1);
+}
+
+.buttons__25 {
+  background: var(--color--orange4);
+  color: var(--color--orange1);
+}
+
+.buttons__cancel {
+  background: #fff;
+  color: var(--color--blue1);
+}

@@ -1,9 +1,8 @@
 import './header.css'
-import html from './header.html'
+import kopf from './header.html'
 
 export default {
-  title: 'Header',
-  component: html,
+  title: 'Components',
 }
 
-export const base = () => html
+export const Header = () => kopf

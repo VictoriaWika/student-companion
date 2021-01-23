@@ -1,8 +1,8 @@
 import './navigation.css'
-import navigation from './navigation.html'
+import menu from './navigation.html'
 
 export default {
-  title: 'Navigation',
+  title: 'Components',
 }
 
-export const base = () => navigation
+export const Navigation = () => menu

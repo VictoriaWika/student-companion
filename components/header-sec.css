@@ -1,6 +1,6 @@
 .headsec {
   position: fixed;
-  width: 375px;
+  width: 100vw;
   background-color: #f8f8f8;
 }
 .headsec-title {
