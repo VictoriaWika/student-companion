@@ -7,27 +7,27 @@ body {
   grid-template-rows: 48px auto 48px;
   height: 100vh;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: var(--font-size-big);
   line-height: 1.5;
   margin: 0;
 }
 
 h1 {
   font-weight: 700;
-  color: var(--color--blue1);
+  color: var(--color-darkblue);
 }
 
 h2 {
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   font-weight: 600;
-  color: var(--color--blue1);
+  color: var(--color-darkblue);
   line-height: 1.143;
 }
 
 h3 {
-  font-size: 12px;
+  font-size: var(--font-size-small);
   font-weight: 400;
-  color: var(--color--blue2);
+  color: var(--color-lightblue);
   line-height: 1.143;
 }
 
