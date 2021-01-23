@@ -10,6 +10,7 @@
 @import '../components/header.css';
 @import '../components/header-sec.css';
 @import '../components/journal.css';
+@import '../components/journal-entry.css';
 @import '../components/navigation.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');

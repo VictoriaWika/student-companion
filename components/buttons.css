@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-.buttons__darkorange {
+.buttons__100 {
   background: var(--color--orange1);
   color: #fff;
 }
@@ -38,4 +38,15 @@
 .buttons__cancel {
   background: #fff;
   color: var(--color--blue1);
+}
+
+.buttons__padding {
+  padding: 12px 45px;
+  width: 200px;
+  align-items: center;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
 }
