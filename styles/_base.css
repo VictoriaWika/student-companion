@@ -10,6 +10,7 @@ body {
   font-size: var(--font-size-big);
   line-height: 1.5;
   margin: 0;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -32,8 +33,7 @@ h3 {
 }
 
 main {
-  margin: 0 30px;
-  margin-top: 81px;
+  margin: 81px 30px;
 }
 
 button {

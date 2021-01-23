@@ -4,12 +4,15 @@
   --color-lightorange: #ffbdaf;
   --color-verylightorange: #ffded7;
 
+  /* Secondary colors */
+
   --color-darkblue: #193251;
   --color-lightblue: #7589a2;
-
   --color-gray: #e0e4e8;
   --color-eggshell: #f8f8f8;
   --color-white: #fff;
+
+  /* shadow colors */
 
   --shadow-grey: rgba(25, 50, 81, 0.2);
   --shadow-orange: rgba(255, 90, 54, 0.4);

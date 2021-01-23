@@ -1,43 +1,5 @@
 .journal {
   border-radius: 6px;
-  box-shadow: 0 2px 11px var(--color-darkblue);
-}
-
-.form-heading {
-  margin-top: 30px;
-}
-
-.rating,
-.comprehension {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding: 0;
-  gap: 6px;
-}
-
-.form {
-  display: block;
-}
-
-.form-journal-motto {
-  height: 62px;
-  width: 100%;
-  border-radius: 4px;
-  border-style: solid;
-  border-color: var(--color-gray);
-  padding: 19px 20px;
-  line-height: 1.5;
-  font-size: var(--font-size-big);
-}
-
-.form-journal-notes {
-  height: 124px;
-  width: 100%;
-  border-radius: 4px;
-  border-style: solid;
-  border-color: var(--color-gray);
-  padding: 19px 20px;
-  line-height: 1.5;
-  font-size: var(--font-size-big);
+  box-shadow: 0 2px 11px var(--shadow-grey);
+  padding: 20px;
 }
