@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.buddy-container:first-child {
+  margin-top: 34px;
+}
+
 .code-buddy__plus {
   position: absolute;
   bottom: -11px;
