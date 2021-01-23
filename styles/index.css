@@ -3,6 +3,7 @@
 @import '_variables.css';
 
 @import '../components/buddy-container.css';
+@import '../components/code-buddy.css';
 @import '../components/buttons.css';
 @import '../components/energylevel.css';
 @import '../components/footer.css';

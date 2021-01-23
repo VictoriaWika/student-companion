@@ -1,0 +1,16 @@
+.app-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.code-buddy {
+  position: relative;
+}
+
+.code-buddy__plus {
+  position: absolute;
+  bottom: -11px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
