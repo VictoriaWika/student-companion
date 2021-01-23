@@ -1,5 +1,6 @@
 .headsec {
-  position: relative;
+  position: fixed;
+  width: 100vw;
   background-color: #f8f8f8;
 }
 .headsec-title {
