@@ -1,0 +1,23 @@
+.head {
+  position: relative;
+  background-color: #f8f8f8;
+}
+.head-title {
+  line-height: 1.125;
+  margin-bottom: 0;
+  margin-top: 20px;
+  font-weight: bold 700;
+}
+
+.head-background {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  z-index: -1;
+}
+
+.head-subtitle {
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 0;
+}
