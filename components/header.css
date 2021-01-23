@@ -1,0 +1,17 @@
+.head {
+  position: relative;
+}
+.head-title {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.head-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
