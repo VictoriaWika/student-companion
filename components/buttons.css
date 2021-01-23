@@ -16,28 +16,28 @@
 }
 
 .buttons__100 {
-  background: var(--color--orange1);
-  color: #fff;
+  background: var(--color-darkorange);
+  color: var(--color-white);
 }
 
 .buttons__75 {
-  background: var(--color--orange2);
-  color: #fff;
+  background: var(--color-orange);
+  color: var(--color-white);
 }
 
 .buttons__50 {
-  background: var(--color--orange3);
-  color: var(--color--orange1);
+  background: var(--color-lightorange);
+  color: var(--color-darkorange);
 }
 
 .buttons__25 {
-  background: var(--color--orange4);
-  color: var(--color--orange1);
+  background: var(--color-verylightorange);
+  color: var(--color-darkorange);
 }
 
 .buttons__cancel {
-  background: #fff;
-  color: var(--color--blue1);
+  background: var(--color-white);
+  color: var(--color-darkblue);
 }
 
 .buttons__padding {
