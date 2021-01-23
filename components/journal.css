@@ -1,0 +1,32 @@
+.journal-heading {
+  padding-top: 30.42px;
+  padding-bottom: 30px;
+}
+
+.rating,
+.comprehension {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.form {
+  display: block;
+}
+
+.form-journal-motto {
+  height: 62px;
+  width: 100%;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--color--blue3);
+}
+
+.form-journal-notes {
+  height: 124px;
+  width: 100%;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: var(--color--blue3);
+}
