@@ -1,8 +1,9 @@
-.head {
+.header {
   position: fixed;
-  width: 375px;
+  width: 100vw;
+  background-color: #f8f8f8;
 }
-.head-title {
+.header__title {
   text-transform: uppercase;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -10,7 +11,7 @@
   text-align: center;
 }
 
-.head-background {
+.header__background {
   position: absolute;
   top: 0;
   left: 0;
