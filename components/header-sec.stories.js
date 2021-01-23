@@ -1,9 +1,8 @@
 import './header-sec.css'
-import html from './header-sec.html'
+import kopf2 from './header-sec.html'
 
 export default {
-  title: 'Secondary Header',
-  component: html,
+  title: 'Components',
 }
 
-export const base = () => html
+export const Header2 = () => kopf2
