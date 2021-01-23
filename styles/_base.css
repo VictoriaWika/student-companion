@@ -31,6 +31,10 @@ h3 {
   line-height: 1.143;
 }
 
+main {
+  margin: 0 30px;
+}
+
 button {
   font-size: 1em;
 }
