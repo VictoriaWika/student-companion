@@ -14,3 +14,8 @@
 .margin-null {
   margin-top: 0;
 }
+
+.icon-filter {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%)
+    contrast(103%);
+}
