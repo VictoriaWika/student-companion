@@ -2,10 +2,10 @@
   position: fixed;
   width: 100vw;
   z-index: 1;
-  background-color: #f8f8f8;
+  background-color: var(--color-eggshell);
 }
 .headersec__title {
-  font-size: 16px;
+  font-size: var(--font-size-big);
   font-weight: bold 700;
   line-height: 1.125;
   text-transform: uppercase;

@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
-  background-color: #fff;
+  background-color: var(--color-white);
   padding: 12px 29px;
   border-radius: 10px;
-  box-shadow: 0 2px 11px rgba(25, 50, 81, 0.2);
+  box-shadow: 0 2px 11px var(--shadow-grey);
   position: fixed;
   bottom: 20px;
   left: 20px;
