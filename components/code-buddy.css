@@ -2,8 +2,8 @@
   position: relative;
 }
 
-.buddy-container:first-child {
-  margin-top: 34px;
+.margin-t34 > .buddy-container:first-child {
+  margin-top: 59px;
 }
 
 .code-buddy__plus {
