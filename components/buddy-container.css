@@ -1,10 +1,14 @@
 .buddy-container {
-  margin: 0;
+  margin: 20px 0;
 }
 
-.buddy-container:first-child {
+/* -- Kann man evtl. weglassen, da passiert nichts!
+
+buddy-container:first-child {
   margin-top: 31px;
 }
+
+-- */
 
 .buddy-container:last-child {
   margin-bottom: 87px;
