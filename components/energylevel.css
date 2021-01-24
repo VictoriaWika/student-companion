@@ -1,46 +1,26 @@
-/* .container {
-  position: relative;
-  width: 279px;
-  height: 200px;
-  padding: 10px;
-  background: repeating-linear-gradient(#eee 0 1px, white 1px 40px);
-}
-.graph {
-  border: 1px solid black;
+.energylevel {
   width: 315px;
   height: 208px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 20px);
+  grid-template-columns: 32px repeat(5, minmax(32px, 1fr));
+  grid-template-rows: repeat(6, minmax(0, auto));
   grid-template-areas:
-    'percentage  db   db   db   db   db'
-    'percentage  db   db   db   db   db'
-    'percentage  db   db   db   db   db'
-    'percentage  db   db   db   db   db'
-    'percentage  db   db   db   db   db'
-    '.           time1 time2 time3 time4 time5';
+    'percentage  bars   bars   bars   bars   bars'
+    'percentage  bars   bars   bars   bars   bars'
+    'percentage  bars   bars   bars   bars   bars'
+    'percentage  bars   bars   bars   bars   bars'
+    'percentage  bars   bars   bars   bars   bars'
+    '.           time time time time time';
 }
 
-.percentage {
-  grid-area: percentage;
-}
-
-.db {
-  grid-area: db;
-}
-
-.time {
-  grid-area: time;
-} */
-
-.graph h3 {
+.energylevel h3 {
   line-height: 1.5;
   margin: 0;
   padding: 0;
 }
 
-.container {
-  grid-area: db;
+.energylevel__background {
+  grid-area: bars;
   margin-top: 16px;
   background: repeating-linear-gradient(
     var(--color-gray) 0 1px,
@@ -49,22 +29,7 @@
   z-index: -1;
 }
 
-.graph {
-  width: 315px;
-  height: 208px;
-  display: grid;
-  grid-template-columns: 32px repeat(5, minmax(32px, 1fr));
-  grid-template-rows: repeat(6, minmax(0, auto));
-  grid-template-areas:
-    'percentage  db   db   db   db   db'
-    'percentage  db   db   db   db   db'
-    'percentage  db   db   db   db   db'
-    'percentage  db   db   db   db   db'
-    'percentage  db   db   db   db   db'
-    '.           time time time time time';
-}
-
-.percentage {
+.energylevel__percentage {
   grid-area: percentage;
   height: 208px;
   width: 32px;
@@ -74,109 +39,109 @@
   justify-content: flex-start;
 }
 
-.db {
-  grid-area: db;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-.time {
+.energylevel__time {
   grid-area: time;
   display: flex;
   justify-content: space-around;
 }
 
-.percentage > li {
+.energylevel__percentage > li {
   padding-bottom: 24px;
 }
 
-.percentage:last-child {
+.energylevel__percentage:last-child {
   padding-bottom: -2px;
 }
 
-.doublebar1 {
+.energylevel__bars {
+  grid-area: bars;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.energylevel__bars-double-1 {
   display: flex;
   align-items: flex-end;
   margin-bottom: 9px;
 }
-.orange1 {
+.energylevel__bars-orange-1 {
   width: 12px;
   height: 175px;
-  background: #ff5a36;
+  background: var(--color-darkorange);
   border-radius: 50px 50px 0 0;
 }
-.blue1 {
+.energylevel__bars-blue-1 {
   width: 12px;
   height: 154px;
-  background: #193251;
+  background: var(--color-darkblue);
   border-radius: 50px 50px 0 0;
 }
-.doublebar2 {
+.energylevel__bars-double-2 {
   display: flex;
   align-items: flex-end;
   margin-bottom: 9px;
 }
-.orange2 {
+.energylevel__bars-orange-2 {
   width: 12px;
   height: 131px;
-  background: #ff5a36;
+  background: var(--color-darkorange);
   border-radius: 50px 50px 0 0;
 }
-.blue2 {
+.energylevel__bars-blue-2 {
   width: 12px;
   height: 148px;
-  background: #193251;
+  background: var(--color-darkblue);
   border-radius: 50px 50px 0 0;
 }
-.doublebar3 {
+.energylevel__bars-double-3 {
   display: flex;
   align-items: flex-end;
   margin-bottom: 9px;
 }
-.orange3 {
+.energylevel__bars-orange-3 {
   width: 12px;
   height: 157px;
-  background: #ff5a36;
+  background: var(--color-darkorange);
   border-radius: 50px 50px 0 0;
 }
-.blue3 {
+.energylevel__bars-blue-3 {
   width: 12px;
   height: 109px;
-  background: #193251;
+  background: var(--color-darkblue);
   border-radius: 50px 50px 0 0;
 }
-.doublebar4 {
+.energylevel__bars-double-4 {
   display: flex;
   align-items: flex-end;
   margin-bottom: 9px;
 }
-.orange4 {
+.energylevel__bars-orange-4 {
   width: 12px;
   height: 72px;
-  background: #ff5a36;
+  background: var(--color-darkorange);
   border-radius: 50px 50px 0 0;
 }
-.blue4 {
+.energylevel__bars-blue-4 {
   width: 12px;
   height: 95px;
-  background: #193251;
+  background: var(--color-darkblue);
   border-radius: 50px 50px 0 0;
 }
-.doublebar5 {
+.energylevel__bars-double-5 {
   display: flex;
   align-items: flex-end;
   margin-bottom: 9px;
 }
-.orange5 {
+.energylevel__bars-orange-5 {
   width: 12px;
   height: 47px;
-  background: #ff5a36;
+  background: var(--color-darkorange);
   border-radius: 50px 50px 0 0;
 }
-.blue5 {
+.energylevel__bars-blue-5 {
   width: 12px;
   height: 33px;
-  background: #193251;
+  background: var(--color-darkblue);
   border-radius: 50px 50px 0 0;
 }

@@ -8,3 +8,12 @@
 .journal:last-child {
   margin-bottom: 87px;
 }
+
+.journal__rating,
+.journal__comprehension {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  gap: 6px;
+}

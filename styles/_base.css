@@ -40,7 +40,7 @@ button {
   font-size: 1em;
 }
 
-.graph ul {
+.energylevel ul {
   list-style: none;
   font-size: var(--font-size-small);
   font-weight: 400;

@@ -39,7 +39,7 @@
   text-align: end;
 }
 
-.buttons__graph-orange {
+.buttons__energylevel-orange {
   background: var(--color-verylightorange);
   color: var(--color-darkorange);
   padding: 2px 9.5px;
@@ -48,7 +48,7 @@
   margin-left: 10px;
 }
 
-.buttons__graph-blue {
+.buttons__energylevel-blue {
   background: var(--color-darkblue);
   color: var(--color-white);
   padding: 2px 9.5px;
