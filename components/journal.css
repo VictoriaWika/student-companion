@@ -2,4 +2,9 @@
   border-radius: 6px;
   box-shadow: 0 2px 11px var(--shadow-grey);
   padding: 20px;
+  margin-bottom: 30px;
+}
+
+.journal:last-child {
+  margin-bottom: 87px;
 }
