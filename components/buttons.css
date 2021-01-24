@@ -35,6 +35,27 @@
   color: var(--color-darkorange);
 }
 
+.buttons__positioning {
+  text-align: end;
+}
+
+.buttons__graph-orange {
+  background: var(--color-verylightorange);
+  color: var(--color-darkorange);
+  padding: 2px 9.5px;
+  border-radius: 3px;
+  font-size: var(--font-size-small);
+  margin-left: 10px;
+}
+
+.buttons__graph-blue {
+  background: var(--color-darkblue);
+  color: var(--color-white);
+  padding: 2px 9.5px;
+  border-radius: 3px;
+  font-size: var(--font-size-small);
+}
+
 .buttons__cancel {
   background: var(--color-white);
   color: var(--color-darkblue);
@@ -49,11 +70,10 @@
 .buttons__padding {
   padding: 12px 45px;
   align-items: center;
-
   width: 152px;
   height: 48px;
 }
 
-.center {
+.buttons__center {
   text-align: center;
 }
