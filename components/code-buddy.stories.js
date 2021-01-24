@@ -1,8 +1,8 @@
 import './code-buddy.css'
-import html from './code-buddy.html'
+import codeBuddy from './code-buddy.html'
 
 export default {
   title: 'Components',
 }
 
-export const CodeBuddy = () => html
+export const CodeBuddy = () => codeBuddy

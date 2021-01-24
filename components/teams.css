@@ -1,16 +1,16 @@
-.buddy-container {
+.teams {
   margin: 20px 0;
 }
 
-.buddy-container:first-child {
+.teams:first-child {
   margin-top: 34px;
 }
 
-.buddy-container:last-child {
+.teams:last-child {
   margin-bottom: 87px;
 }
 
-.buddy-container__list {
+.teams__list {
   list-style-type: none;
   padding-left: 0;
   margin: 0;
@@ -18,13 +18,13 @@
   border-radius: 6px;
 }
 
-.buddy-container__items {
+.teams__items {
   text-align: center;
   border-bottom: 1px solid var(--color-gray);
   padding: 18px 0;
   color: var(--color-lightblue);
 }
 
-.buddy-container__items:last-child {
+.teams__items:last-child {
   border-bottom: 0;
 }

@@ -1,21 +1,12 @@
-.form-heading {
-  margin-top: 30px;
-}
-
-.rating,
-.comprehension {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  padding: 0;
-  gap: 6px;
-}
-
-.form {
+.journal-form {
   display: block;
 }
 
-.form-journal-motto {
+.journal-form-heading {
+  margin-top: 30px;
+}
+
+.journal-form__motto {
   height: 62px;
   width: 100%;
   border-radius: 4px;
@@ -26,7 +17,7 @@
   font-size: var(--font-size-big);
 }
 
-.form-journal-notes {
+.journal-form__notes {
   height: 124px;
   width: 100%;
   border-radius: 4px;
@@ -37,7 +28,7 @@
   font-size: var(--font-size-big);
 }
 
-.journal-entry__buttons {
+.journal-form__buttons {
   display: flex;
   justify-content: space-between;
 }

@@ -3,14 +3,14 @@
 @import '_variables.css';
 
 @import '../components/app-grid.css';
-@import '../components/buddy-container.css';
+@import '../components/teams.css';
 @import '../components/buttons.css';
 @import '../components/code-buddy.css';
 @import '../components/energylevel.css';
 @import '../components/header.css';
 @import '../components/header-sec.css';
 @import '../components/journal.css';
-@import '../components/journal-entry.css';
+@import '../components/journal-form.css';
 @import '../components/navigation.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
